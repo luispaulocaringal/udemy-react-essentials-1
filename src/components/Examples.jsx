@@ -22,7 +22,7 @@ function Examples() {
 
   return (
     <Section title="Examples" id="examples">
-      <Tabs buttons={tabButtons}>
+      <Tabs buttons={tabButtons} ButtonsContainer="menu">
         <div id="tab-content">
           {selectedTopic ? (
             <>
